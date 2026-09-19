@@ -8,7 +8,7 @@
 <meta name="description" content="Adagio Privacy Policy — Adagio">
 <meta name="theme-color" content="#efefed" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#101010" media="(prefers-color-scheme: dark)">
-<meta name="adagio-source-sha256" content="6161283bbcb53ba86f85f66d3460d38ae9e4066ff3184972501d8469c47b1787">
+<meta name="adagio-source-sha256" content="9a30cd60386763552faac26378c480a99da758b79cf066acf022d886ebbe3dfc">
 <meta name="adagio-generator" content="scripts/py/build_legal_site.py">
 <meta name="robots" content="index,follow">
 <link rel="alternate" hreflang="ru" href="../ru/">
@@ -164,8 +164,8 @@ article{border:0;box-shadow:none;padding:0}body{background:#fff;color:#000}}</st
 </nav></aside>
 <article id="text">
 <div class="lede">
-<p><strong>Effective:</strong> 19 September 2026. <strong>Version:</strong> 1.9.</p>
-<p><strong>What changed in this revision:</strong> a new section, "If you write to us", describes what happens to the e-mails you send us — including to support: what we receive, why, and that correspondence is deleted within 30 days once 12 months have passed since the last message; the list of what is stored on the device now names the technical diagnostics log, which leaves the device only if you export it yourself. The previous revision (1.8) disclosed crash reports sent to the Sentry service.</p>
+<p><strong>Effective:</strong> 19 September 2026. <strong>Version:</strong> 1.10.</p>
+<p><strong>What changed in this revision:</strong> "Crash reports" now states correctly that on a Mac an internal error of the app intercepted by the system closes the app and is reported like any other crash; the previous wording said the app stayed open. The previous revision (1.9) added the section "If you write to us" and named the technical diagnostics log among what is stored on the device.</p>
 <p>Adagio is an app that improves the smoothness of your videos. All video processing happens on your device. This policy describes what data the app processes, why, for how long, and what you can do about it.</p>
 </div>
 <section id="in-short" class="summary">
@@ -203,7 +203,7 @@ article{border:0;box-shadow:none;padding:0}body{background:#fff;color:#000}}</st
 </section>
 <section id="crash-reports">
 <h2>Crash reports</h2>
-<p><strong>What this is.</strong> If the app terminates abnormally — or iOS closes it on screen for no reason it can explain, which usually means it ran out of memory — the app sends a technical crash report the next time it starts. On a Mac a report is also sent when the system intercepted an error of the app without closing it.</p>
+<p><strong>What this is.</strong> If the app terminates abnormally — or iOS closes it on screen for no reason it can explain, which usually means it ran out of memory — the app sends a technical crash report the next time it starts. On a Mac this includes an internal error of the app intercepted by the system: the app closes, and the report is sent the same way.</p>
 <p>Besides crash reports, short notices of failures inside the app go to the same service:</p>
 <ul><li>an unhandled error — only the fact itself and in which of two parts of the program it occurred;</li><li>a failed operation — the area of the app (for example, import, processing, saving, purchase) and a reason from a predefined list of codes (for example, "timed out", "disk full", "file missing").</li></ul>
 <p>These notices contain no error text, file names, paths or identifiers — only these values and the technical fields of the Sentry service itself.</p>
